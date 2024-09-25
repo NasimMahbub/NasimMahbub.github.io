@@ -362,13 +362,13 @@
 		<br>
 		<br> -->
 
-		<div class="row">
+<!-- 		<div class="row">
     <h1 class="big-4">Education</h1>
     <div class="underline"></div>
 </div>
 <br>
 <div class="row">
-    <!-- First two education entries in the first row -->
+    First two education entries in the first row
     <div class="col-md-6">
         <div class="resume-wrap ftco-animate">
             <span class="date">2024-Present</span>
@@ -387,7 +387,7 @@
 </div>
 <br>
 <div class="row">
-    <!-- One education entry in the second row -->
+    One education entry in the second row
     <div class="col-md-6">
         <div class="resume-wrap ftco-animate">
             <span class="date">2016-2018</span>
@@ -396,7 +396,73 @@
             <p class="mt-4">Grade: First class distinction with GPA 5.00</p>
         </div>
     </div>
-</div>
+</div> -->
+
+		<section class="education">
+    <header>
+        <h1 class="big-4">Education</h1>
+        <div class="underline"></div>
+    </header>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+                <span class="date">2024-Present</span>
+                <h2>
+                    <a href="https://www.buet.ac.bd" target="_blank" class="education-link">Master of Science in Engineering</a>
+                </h2>
+                <span class="position">Bangladesh University of Engineering & Technology</span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+                <span class="date">2019-2024</span>
+                <h2>
+                    <a href="https://www.kuet.ac.bd" target="_blank" class="education-link">Bachelor of Engineering</a>
+                </h2>
+                <span class="position">Khulna University of Engineering & Technology</span>
+                <p class="mt-4">Grade: First class distinction with CGPA 3.58</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+                <span class="date">2016-2018</span>
+                <h2>
+                    <a href="https://www.ndc.edu.bd" target="_blank" class="education-link">Higher Secondary School</a>
+                </h2>
+                <span class="position">Notre Dame College, Dhaka</span>
+                <p class="mt-4">Grade: First class distinction with GPA 5.00</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .education-link {
+        text-decoration: none;
+        color: inherit; /* Makes the link color inherit from the parent */
+        position: relative; /* For absolute positioning of tooltip */
+    }
+    
+    .education-link:hover::after {
+        content: attr(href); /* Show the URL as a tooltip */
+        position: absolute;
+        background-color: #000; /* Background color of tooltip */
+        color: #fff; /* Text color of tooltip */
+        padding: 5px;
+        border-radius: 5px;
+        white-space: nowrap;
+        left: 0; /* Positioning the tooltip */
+        top: 100%; /* Position below the link */
+        z-index: 10; /* Make sure tooltip is on top */
+    }
+
+    .resume-wrap {
+        position: relative; /* For positioning of tooltip */
+    }
+</style>
+
 <br>
 <div class="row">
     <h1 class="big-4">Award</h1>
