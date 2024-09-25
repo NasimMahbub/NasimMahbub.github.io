@@ -408,7 +408,7 @@
             <div class="resume-wrap ftco-animate">
                 <span class="date">2024-Present</span>
                 <h2>
-                    <a href="https://www.buet.ac.bd" target="_blank" class="education-link">Master of Science in Engineering</a>
+                    <a href="https://iict.buet.ac.bd/" target="_blank" class="education-link">Master of Science in Engineering</a>
                 </h2>
                 <span class="position">Bangladesh University of Engineering & Technology</span>
             </div>
@@ -417,7 +417,7 @@
             <div class="resume-wrap ftco-animate">
                 <span class="date">2019-2024</span>
                 <h2>
-                    <a href="https://www.kuet.ac.bd" target="_blank" class="education-link">Bachelor of Engineering</a>
+                    <a href="https://www.kuet.ac.bd/dept/ece" target="_blank" class="education-link">Bachelor of Engineering</a>
                 </h2>
                 <span class="position">Khulna University of Engineering & Technology</span>
                 <p class="mt-4">Grade: First class distinction with CGPA 3.58</p>
@@ -481,7 +481,7 @@
     <div class="col-md-6">
         <div class="resume-wrap ftco-animate">
             <span class="date">2023</span>
-            <h2>Dean's Award</h2>
+            <h2><a href="https://www.linkedin.com/in/nasim-mahbub-b87216300/details/education/1727293031680/single-media-viewer/?profileId=ACoAAEzrGBcB3CUL44_Of3ajIt0LIAU-Oa1_SjY" target="_blank" class="award-link">Dean's Award</a></h2>
             <span class="position">Khulna University of Engineering & Technology</span>
             <p class="mt-4">Grade: Combined CGPA of 3rd year is 3.81</p>
         </div>
@@ -489,13 +489,36 @@
     <div class="col-md-6">
         <div class="resume-wrap ftco-animate">
             <span class="date">2018</span>
-            <h2>General Scholarship</h2>
+            <h2><a href="https://www.linkedin.com/in/nasim-mahbub-b87216300/details/education/1727293929094/single-media-viewer/?profileId=ACoAAEzrGBcB3CUL44_Of3ajIt0LIAU-Oa1_SjY" target="_blank" class="award-link">General Scholarship</a></h2>
             <span class="position">Notre Dame College, Dhaka</span>
             <p class="mt-4">Grade: GPA 5.00</p>
         </div>
     </div>
 </div>
+<style>
+    .award-link {
+        text-decoration: none;
+        color: inherit; /* Makes the link color inherit from the parent */
+        position: relative; /* For absolute positioning of tooltip */
+    }
+    
+    .award-link:hover::after {
+        content: attr(href); /* Show the URL as a tooltip */
+        position: absolute;
+        background-color: #000; /* Background color of tooltip */
+        color: #fff; /* Text color of tooltip */
+        padding: 5px;
+        border-radius: 5px;
+        white-space: nowrap;
+        left: 0; /* Positioning the tooltip */
+        top: 100%; /* Position below the link */
+        z-index: 10; /* Make sure tooltip is on top */
+    }
 
+    .resume-wrap {
+        position: relative; /* For positioning of tooltip */
+    }
+</style>
 
 <!-- 		<div class="row">
 			<h1 class="big-4">Education</h1>
